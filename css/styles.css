@@ -67,7 +67,8 @@ p {
 .scope-list,
 .team-list,
 .filter-list,
-.projects-list {
+.projects-list,
+.clients-list{
   list-style: none;
 }
 
@@ -220,7 +221,8 @@ p {
 }
 
 .scope-title,
-.team-title {
+.team-title,
+.clients-title {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -298,6 +300,21 @@ p {
   letter-spacing: 0.03em;
 
   color: var(--txt-cl);
+}
+.clients-section{
+ padding:94px 0;
+}
+.clients-title{
+  text-align: center;
+  margin-bottom: 50px;
+}
+.clients-list{
+  display:flex;
+  gap: 30px;
+  padding-left: 0px;
+}
+.client-icon{
+ 
 }
 
 .footer {
