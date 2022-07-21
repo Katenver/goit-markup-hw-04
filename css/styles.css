@@ -308,14 +308,33 @@ p {
   text-align: center;
   margin-bottom: 50px;
 }
-.clients-list{
-  display:flex;
-  gap: 30px;
-  padding-left: 0px;
-}
-.client-icon{
+ .clients-list {
+   display: flex;
+   gap: 30px;
+   padding-left: 0px;
+  }
  
+.clients-link{
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ border: 1px solid #AFB1B8;
+ border-radius: 4px;
 }
+.clients-link:hover,
+.clients-link:focus {
+border-color: #2196F3;
+}
+.client-icon {
+  fill:#AFB1B8;
+  padding: 16px 32px;
+}
+
+.client-icon:hover,
+.client-icon:focus{
+  fill: #2196F3;
+}
+
 
 .footer {
   background-color: var(--background-clr);
